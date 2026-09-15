@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="الموقع الشخصي لنواف علي - طالب برمجة وتطوير الويب.">
+
+    <title>نواف علي | مطور ويب</title>
+
+    <link rel="stylesheet" href="Style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+        <div class="loader-logo">&lt;N/&gt;</div>
+
+        <div class="loader-name">NAWAF ALI</div>
+
+        <div class="loader-line">
+            <div class="loader-progress" id="loaderProgress"></div>
+        </div>
+
+        <div class="loader-info">
+            <span id="loaderStatus">جاري التحميل...</span>
+            <span id="loaderPercentage">0%</span>
+        </div>
+    </div>
+</div>
+
+    <div class="background">
+        <div class="grid"></div>
+
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="orb orb-three"></div>
+
+        <div class="floating-particles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">&lt;N/&gt;</a>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+
+                <a href="#about" data-ar="من أنا" data-en="About">عني</a>
+
+                <a href="#skills" data-ar="المهارات" data-en="Skills">
+                    المهارات
+                </a>
+
+                <a href="#courses" data-ar="الدورات" data-en="Courses">
+                    الدورات
+                </a>
+
+                <a href="#projects" data-ar="المشاريع" data-en="Projects">
+                    المشاريع
+                </a>
+
+                <a href="#education" data-ar="التعليم" data-en="Education">
+                    التعليم
+                </a>
+
+                <button class="language-btn" id="languageBtn">
+                    EN
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <span class="hero-intro"
+                    data-ar="مرحباً، أنا"
+                    data-en="Hello, I'm">
+                    مرحباً، أنا
+                </span>
+
+                <h1
+                    data-ar="نواف علي"
+                    data-en="Nawaf Ali">
+                    نواف غلي
+                </h1>
+
+                <div class="hero-changing">
+                    <span id="changingText">مطور ويب</span>
+                    <span class="cursor">|</span>
+                </div>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects"
+                        class="btn primary"
+                        data-ar="استعرض مشاريعي"
+                        data-en="View My Projects">
+                        استعرض مشاريعي
+                    </a>
+
+                    <a href="#about"
+                        class="btn secondary"
+                        data-ar="تعرف علي"
+                        data-en="About Me">
+                        تعرف علي
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/NawafAli21" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/nawaf-al-khathami-078597393/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="code-card">
+
+                    <div class="code-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="code-body">
+
+                        <span class="code-line">
+                            <b>const</b> developer = {
+                        </span>
+
+                        <span class="code-line indent">
+                            name: <em>"Nawaf"</em>,
+                        </span>
+
+                        <span class="code-line indent">
+                            role: <em>"Web Developer"</em>,
+                        </span>
+
+                        <span class="code-line indent">
+                            passion: <em>"Building"</em>,
+                        </span>
+
+                        <span class="code-line indent">
+                            learning: <em>true</em>
+                        </span>
+
+                        <span class="code-line">
+                            };
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="tech-tag tag-html">HTML</div>
+                <div class="tech-tag tag-css">CSS</div>
+                <div class="tech-tag tag-js">JavaScript</div>
+                <div class="tech-tag tag-php">PHP</div>
+
+            </div>
+
+        </section>
+
+        <section class="section reveal" id="about">
+
+            <div class="section-title">
+                <span>01</span>
+
+                <h2 data-ar="من أنا" data-en="About Me">
+                    من أنا
+                </h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <h3
+                        data-ar="أبني، أتعلم، وأتطور."
+                        data-en="Build. Learn. Evolve.">
+                        أبني، أتعلم، وأتطور.
+                    </h3>
+
+                    <p
+                        data-ar="أنا نواف، طالب في كلية التقنية بالدمام متخصص في البرمجة وتطوير الويب. أركز على بناء مشاريع عملية تساعدني على تحويل المعرفة النظرية إلى مهارات حقيقية."
+                        data-en="I'm Nawaf, a Programming and Web Development student in College Of Technology in Dammam. I focus on building practical projects that turn theoretical knowledge into real-world skills.">
+                        أنا نواف، طالب في تخصص تقنية البرمجة وتطوير الويب. أركز على بناء مشاريع عملية تساعدني على تحويل المعرفة النظرية إلى مهارات حقيقية.
+                    </p>
+
+                </div>
+
+                <div class="about-cards">
+
+                    <div class="about-card">
+                        <i class="fa-solid fa-gauge-high"></i>
+                        <h4 data-ar="أبني مواقع وأنظمة بأداء عالٍ"
+                            data-en="Building High-Performance Websites & Systems">
+                            أبني مواقع وأنظمة بأداء عالٍ
+                        </h4>
+                    </div>
+
+                    <div class="about-card">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <h4 data-ar="أفكر بعقلية هندسية"
+                            data-en="Thinking with an Engineering Mindset">
+                            أفكر بعقلية هندسية
+                        </h4>
+                    </div>
+
+                    <div class="about-card">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <h4 data-ar="أتطور باستمرار"
+                            data-en="Continuously Improving">
+                            أتطور باستمرار
+                        </h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section reveal" id="skills">
+
+            <div class="section-title">
+                <span>02</span>
+
+                <h2 data-ar="منظومة المهارات" data-en="Skill System">
+                    منظومة المهارات
+                </h2>
+            </div>
+            <p data-ar="تتحدث المهارات باستمرار مع تطور معرفتي وخبرتي العملية."
+   data-en="Skills are continuously updated as my knowledge and practical experience grow.">
+    تتحدث نسب المهارات باستمرار مع تطور معرفتي وخبرتي العملية.
+            </p>
+                  <br> <br> 
+
+            <div class="skills-grid">
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>HTML</span>
+                        <span>97%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="97"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>CSS</span>
+                        <span>93%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="93"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>JavaScript</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>PHP</span>
+                        <span>86%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="86"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>MySQL</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>PL/SQL</span>
+                        <span>71%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="71"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>Git & GitHub</span>
+                        <span>68%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="68"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>Microsoft Word</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>Microsoft Excel</span>
+                        <span>78%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="78"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>Microsoft PowerPoint</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="82"></div>
+                    </div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-info" dir="ltr">
+                        <span>UI / UX</span>
+                        <span>62%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-progress="62"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section reveal" id="courses">
+
+            <div class="section-title">
+                <span>03</span>
+
+                <h2 data-ar="الدورات" data-en="Courses">
+                    الدورات
+                </h2>
+            </div>
+
+            <div class="courses-grid">
+
+                <article class="course-card">
+
+                    <div class="course-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+
+                    <div class="course-content">
+
+                        <h3 data-ar="مقدمة في الأمن السيبراني"
+                            data-en="Introduction to Cybersecurity">
+                            مقدمة في الأمن السيبراني
+                        </h3>
+
+                        <div class="course-source">
+                            <span data-ar="المنصة" data-en="Platform">
+                                المنصة
+                            </span>
+                            <strong>سطر</strong>
+                        </div>
+
+                        <time data-ar="نوفمبر 2025" data-en="November 2025">
+                            نوفمبر 2025
+                        </time>
+
+                    </div>
+
+                </article>
+
+                <article class="course-card">
+
+                    <div class="course-icon">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+
+                    <div class="course-content">
+
+                        <h3 data-ar="أهمية علوم البيانات والذكاء الاصطناعي"
+                            data-en="The Importance of Data Science and Artificial Intelligence">
+                            أهمية علوم البيانات والذكاء الاصطناعي
+                        </h3>
+
+                        <div class="course-source">
+                            <span data-ar="المنصة" data-en="Platform">
+                                المنصة
+                            </span>
+                            <strong>دروب</strong>
+                        </div>
+
+                        <time data-ar="يناير 2026" data-en="January 2026">
+                            يناير 2026
+                        </time>
+
+                    </div>
+
+                </article>
+
+                <article class="course-card">
+
+                    <div class="course-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+
+                    <div class="course-content">
+
+                        <h3 data-ar="الذكاء الاصطناعي وتحليل البيانات في مستقبل سوق العمل"
+                            data-en="Artificial Intelligence and Data Analysis in the Future of the Job Market">
+                            الذكاء الاصطناعي وتحليل البيانات في مستقبل سوق العمل
+                        </h3>
+
+                        <div class="course-source">
+                            <span data-ar="المنصة" data-en="Platform">
+                                المنصة
+                            </span>
+                            <strong>دروب</strong>
+                        </div>
+
+                        <time data-ar="يناير 2026" data-en="January 2026">
+                            يناير 2026
+                        </time>
+
+                    </div>
+
+                </article>
+
+                <article class="course-card">
+
+                    <div class="course-icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+
+                    <div class="course-content">
+
+                        <h3 data-ar="المقابلات الوظيفية"
+                            data-en="Job Interviews">
+                            المقابلات الوظيفية
+                        </h3>
+
+                        <div class="course-source">
+                            <span data-ar="المنصة" data-en="Platform">
+                                المنصة
+                            </span>
+                            <strong>دروب</strong>
+                        </div>
+
+                        <time data-ar="يونيو 2026" data-en="June 2026">
+                            يونيو 2026
+                        </time>
+
+                    </div>
+
+                </article>
+
+                <article class="course-card">
+
+                    <div class="course-icon">
+                        <i class="fa-solid fa-pen-ruler"></i>
+                    </div>
+
+                    <div class="course-content">
+
+                        <h3 data-ar="UX / UI" data-en="UX / UI">
+                            UX / UI
+                        </h3>
+
+                        <div class="course-source">
+                            <span data-ar="المنصة" data-en="Platform">
+                                المنصة
+                            </span>
+                            <strong>سطر</strong>
+                        </div>
+
+                        <time data-ar="سبتمبر 2026" data-en="September 2026">
+                            سبتمبر 2026
+                        </time>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="section reveal" id="projects">
+
+            <div class="section-title">
+                <span>04</span>
+
+                <h2 data-ar="المشاريع" data-en="Projects">
+                    المشاريع
+                </h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-status completed"
+                        data-ar="مكتمل"
+                        data-en="Completed">
+                        مكتمل
+                    </div>
+
+                    <h3
+                        data-ar="موقع تعريفي لوزارة الاتصالات"
+                        data-en="Ministry of Communications Informational Website">
+                        موقع تعريفي لوزارة الاتصالات
+                    </h3>
+
+                    <p
+                        data-ar="موقع تعريفي يركز على بناء واجهة منظمة ومتجاوبة باستخدام تقنيات الويب الأساسية."
+                        data-en="An informational website focused on building a structured and responsive interface using core web technologies.">
+                        موقع تعريفي يركز على بناء واجهة منظمة ومتجاوبة باستخدام تقنيات الويب الأساسية.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="project-actions">
+
+                        <a href="https://tangerine-donut-587104.netlify.app/"
+                            class="project-btn"
+                            data-ar="عرض المشروع"
+                            data-en="View Project">
+                            عرض المشروع
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-status progress"
+                        data-ar="قيد التطوير"
+                        data-en="In Development">
+                        قيد التطوير
+                    </div>
+
+                    <h3>
+                        DevTrack
+                    </h3>
+
+                    <p
+                        data-ar="تطبيق ويب لإدارة وتتبع مشاريع المطورين، يجمع بين إدارة المشاريع والتكامل مع GitHub."
+                        data-en="A web application for managing and tracking developer projects, combining project management with GitHub integration.">
+                        تطبيق ويب لإدارة وتتبع مشاريع المطورين، يجمع بين إدارة المشاريع والتكامل مع GitHub.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="project-actions">
+
+                        <span class="project-btn disabled"
+                            data-ar="قريبًا"
+                            data-en="Coming Soon">
+                            قريبًا
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="section reveal" id="education">
+
+            <div class="section-title">
+                <span>05</span>
+
+                <h2 data-ar="التعليم" data-en="Education">
+                    التعليم
+                </h2>
+            </div>
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div>
+
+                    <span data-ar="الكلية التقنية بالدمام"
+                        data-en="College Of Technology in Dammam">
+                        الكلية التقنية بالدمام
+                    </span>
+
+                    <h3 data-ar="دبلوم تقنية البرمجة وتطوير الويب"
+                        data-en="Diploma in Programming and Web Development">
+                        دبلوم تقنية البرمجة وتطوير الويب
+                    </h3>
+
+                    <p>2025 — Present</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+
+            <span>&lt;Nawaf /&gt;</span>
+
+            <p data-ar="أبني، أتعلم، وأتطور."
+                data-en="Build. Learn. Evolve.">
+                أبني، أتعلم، وأتطور.
+            </p>
+
+            <small>
+                © 2026 نواف غلي
+            </small>
+
+        </div>
+
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
